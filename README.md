@@ -19,7 +19,38 @@ This repository contains the Benchmark for Intermediate Phase Segmentation. (IJC
 
 ## Introduction
 
-IPSM-Bench contains 1,054 microstructural images (512×512), comprising SEM and OM images, covering 20 types of zinc-based alloys and 22,179 manually annotated intermediate phase instances. 
+* **Data Acquisition**:
+IPSM-Bench comprises 1,054 images, including 800 self-constructed and 254 sourced from the academic literature, covering two image types acquired via Optical Microscopy (OM) and Scanning Electron Microscopy (SEM). The data acquisition process is illustrated below, which includes sample preparation, metallographic preparation, and metallographic image acquisition.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="images/construction-pipeline-final_01.png" width = "100%" alt=""/>
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">
+  	</div>
+</center>
+
+* **Data Annotation**:
+To ensure annotation efficiency, we adopt an AI-assisted annotation strategy in this work. The entire annotation process comprises three key stages: AI model-based pre-annotation, manual verification and correction, and a consistency check.
+
+* **Statistics**:
+IPSM-Bench includes 20 Zinc-based alloy systems and comprises 1,054 images. Figure (a) shows the distribution of Zinc alloy types, with ZnCu (370 samples, 35.10\% of the total) and ZnCuMg (269 samples, 25.52\% of the total) accounting for 60.63\% of the total. IPSM-Bench has 22179 annotation instances. Figure (b) illustrates the distribution of annotations across Zinc alloy types, with ZnCu (12355 annotation instances, 55.71\% of the total) and ZnCuMg (4705 annotation instances, 21.21\% of the total) accounting for 76.92\% of the total. Figure (c) presents the distribution of data modalities across training and testing. The training set includes 554 SEM images and 246 OM images, while the test set contains 122 SEM images and 132 OM images.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="images/statistics-all_01.png" width = "100%" alt=""/>
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">
+  	</div>
+</center>
 
 ## Dataset Download
 
