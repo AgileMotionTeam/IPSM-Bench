@@ -1,6 +1,6 @@
 # IPSM-Bench: A New Intermediate Phase Segmentation Benchmark in Microstructure Images of Zinc-based Absorbable Biomaterials
 
-This repository contains the dataset of microstructural images of zinc-based absorbable biomaterials. (IJCAI 2026)
+This repository contains IPSM-Bench, a high-quality dataset for intermediate phase segmentation in zinc alloy microstructures. (IJCAI 2026)
 [[arXiv](https://arxiv.org/pdf/2606.11001)]
 
 
