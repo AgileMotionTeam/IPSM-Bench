@@ -17,9 +17,6 @@ This repository contains the Benchmark for Intermediate Phase Segmentation. (IJC
   	</div>
 </center>
 
-
-# IPSM-Bench Dataset
-
 ## Introduction
 
 IPSM-Bench contains 1,054 microstructural images (512×512), comprising SEM and OM images, covering 20 types of zinc-based alloys and 22,179 manually annotated intermediate phase instances. 
